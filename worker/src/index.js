@@ -8,9 +8,9 @@ const SITE = "https://YOUR-SITE-URL/"; // e.g. https://calcgames.github.io/games
 
 // Prices in pence. Keep in sync with the labels in pay.js / index.html.
 const PRICES = {
-  block_blast: { amount: 200, name: "Block Blast" },
-  candy: { amount: 150, name: "Candy" },
-  tetris: { amount: 100, name: "Tetris" },
+  block_puzzle: { amount: 200, name: "Block Puzzle" },
+  sweet_match: { amount: 150, name: "Sweet Match" },
+  falling_blocks: { amount: 100, name: "Falling Blocks" },
 };
 
 const ORIGIN = SITE.replace(/\/$/, "");

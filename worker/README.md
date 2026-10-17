@@ -5,7 +5,7 @@ One-time setup, run from this `worker/` folder:
 1. `npx wrangler login`
 2. `npx wrangler r2 bucket create calc-games-private`
 3. Upload the paid files (they stay private, they are not in the Pages site):
-   `npx wrangler r2 object put calc-games-private/block_blast.py --file=path/to/block_blast.py` (repeat for `.zip`, `candy`, `tetris`)
+   `npx wrangler r2 object put calc-games-private/block_puzzle.py --file=path/to/block_puzzle.py` (repeat for `.zip`, `sweet_match`, `falling_blocks`)
 4. Add your Stripe secret key: `npx wrangler secret put STRIPE_SECRET_KEY`
 5. Put your site URL in `src/index.js` (`SITE`) and the Worker URL in `public/pay.js` (`WORKER`).
 6. `npx wrangler deploy`
