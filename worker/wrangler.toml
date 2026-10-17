@@ -2,7 +2,7 @@ name = "calc-games-pay"
 main = "src/index.js"
 compatibility_date = "2026-10-01"
 
-# Private bucket holding the paid files: block_blast.py/.zip, candy.py/.zip, tetris.py/.zip
+# Private bucket holding the paid files: block_puzzle.py/.zip, sweet_match.py/.zip, falling_blocks.py/.zip
 [[r2_buckets]]
 binding = "GAMES"
 bucket_name = "calc-games-private"

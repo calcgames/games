@@ -34,7 +34,7 @@
   var buy = document.createElement("button");
   buy.className = "btn dl";
   buy.type = "button";
-  buy.textContent = "Buy " + game + " for " + price;
+  buy.textContent = "Buy " + game.replace(/_/g, " ") + " for " + price;
   var err = note("");
   err.style.display = "none";
   buy.addEventListener("click", function () {
